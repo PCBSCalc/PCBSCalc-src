@@ -1,0 +1,273 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: pink !important;
+}
+
+p, li {
+    padding-bottom: 10px;
+}
+
+.switcher {
+    align-content: center;
+}
+
+.color-pcbscalc {
+    color: white;
+    background-color: #840EF8;
+}
+
+.color-pcbscalc-dark {
+    color: white;
+    background-color: #470887;
+}
+
+#divOptionCheckboxSection {
+    background-color: #ffffff;
+    padding-top: 32px;
+    height: 52px;
+}
+
+#OptionCheckboxSection {
+    background-color: #ffffff;
+    height: 40px;
+    color: black;
+    width: 370px;
+    margin: auto;
+    padding: 5px 0px;
+}
+
+#OptionCheckboxTable {
+    padding: 0px;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+
+#OptionCheckboxTable td {
+    padding: 0px;
+}
+
+#OptionCheckboxTable td.tdOptionInput {
+    width: 278px;
+}
+
+#OptionCheckboxTable td.tdOptionCheckbox {
+    width: 25px;
+}
+
+#divLevel {
+    height: 45px;
+    width: 100px;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+#tableLevel {
+    border: none;
+    border-collapse: collapse;
+}
+
+#tableLevel td {
+    padding: 0px;
+}
+
+#tableLevel td.tdLevelLabel {
+    width: auto;
+}
+
+#tableLevel td.tdLevelValue {
+    width: auto;
+    height: auto;
+    padding: 3px;
+}
+
+input {
+    border-radius: 0px 0px 0px 0px;
+    height: 25px;
+    width: 400px;
+}
+
+input.bigCheckbox {
+    width: 400px;
+}
+
+input.optionCheckbox {
+    width: auto;
+    height: auto;
+}
+
+input.levelText {
+    height: auto;
+    width: 50px;
+}
+
+#div3DMarkScores {
+    display: block;
+}
+
+#divBuildMaker {
+    display: none;
+}
+
+#divBuildUpgrader {
+    display: none;
+}
+
+#divPartReplacer {
+    display: none;
+}
+
+#divHistoryAndSaves {
+    display: none;
+}
+
+#divPages {
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+caption {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+select {
+    border-radius: 0px 0px 0px 0px;
+    height: 25px;
+    width: 400px;
+}
+
+#div3DMarkScoreCalculatorForm {
+    width: 600px;
+    margin: auto;
+    padding: 15px 20px;
+}
+
+#divBuildMakerForm {
+    width: 600px;
+    margin: auto;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+#tableBuildMakerResults {
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 1200px;
+}
+
+#tableBuildMakerResults td {
+    padding: 5px;
+}
+
+#tableBuildMakerResults button.buttonSave {
+    font-size: 12px;
+    padding: 0px 0px 0px 0px;
+}
+
+#divBuildMakerSaveForm {
+    top: 40%;
+    left: 40%;
+    position: absolute;
+    z-index: 2;
+    border: 5px 5px 5px 5px;
+    height: 100px;
+    width: 350px;
+    padding: 20px 20px;
+    display: none;
+}
+
+#divBuildUpgraderForm {
+    margin: auto;
+    width: 600px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+#divBuildUpgraderResults {
+    margin-bottom: 100px;
+}
+
+#tableBuildUpgraderResults {
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    margin: auto;
+}
+
+#tableBuildUpgraderResults td {
+    padding: 5px;
+}
+
+#divPartReplacerForm {
+    margin: auto;
+    width: 600px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+#divPartReplacerResults {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+#tablePartReplacerResults {
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+#tablePartReplacerResults td {
+    padding: 5px;
+}
+
+#div3DMarkScoreCalculatorHistory {
+    margin-bottom: 100px;
+}
+
+#table3DMarkScoreCalculatorHistory {
+    border: none;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#table3DMarkScoreCalculatorHistory td {
+    padding: 6px;
+}
+
+#divBuildMakerSaves {
+    margin-bottom: 100px;
+}
+
+#tableBuildMakerSaves {
+    border: none;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#tableBuildMakerSaves td {
+    padding: 6px;
+}
